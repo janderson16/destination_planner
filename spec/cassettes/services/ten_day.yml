@@ -1,0 +1,223 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.wunderground.com/api/01b81b67f1678115/forecast10day/q/80203.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Apr 2017 02:47:49 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Tue, 11 Apr 2017 02:44:21 GMT
+      Server:
+      - Apache/2.2.15 (CentOS)
+      X-Creationtime:
+      - '0.025'
+      Vary:
+      - Accept-Encoding
+      Expires:
+      - Tue, 11 Apr 2017 02:47:49 GMT
+      Cache-Control:
+      - max-age=0, no-cache
+      Pragma:
+      - no-cache
+    body:
+      encoding: ASCII-8BIT
+      string: "\n{\n  \"response\": {\n  \"version\":\"0.1\",\n  \"termsofService\":\"http://www.wunderground.com/weather/api/d/terms.html\",\n
+        \ \"features\": {\n  \"forecast10day\": 1\n  }\n\t}\n\t\t,\n\t\"forecast\":{\n\t\t\"txt_forecast\":
+        {\n\t\t\"date\":\"7:24 PM MDT\",\n\t\t\"forecastday\": [\n\t\t{\n\t\t\"period\":0,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Monday\",\n\t\t\"fcttext\":\"A
+        few clouds. Lows overnight in the mid 30s.\",\n\t\t\"fcttext_metric\":\"Partly
+        cloudy. Low 1C.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":1,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Monday
+        Night\",\n\t\t\"fcttext\":\"Mainly clear. Low 34F. Winds W at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Some
+        clouds this evening will give way to mainly clear skies overnight. Low 1C.
+        Winds W at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":2,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Tuesday\",\n\t\t\"fcttext\":\"Sunny,
+        along with a few afternoon clouds. High around 70F. Winds SSE at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Generally
+        sunny despite a few afternoon clouds. High 22C. Winds SSE at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":3,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Tuesday
+        Night\",\n\t\t\"fcttext\":\"Considerable clouds early. Some decrease in clouds
+        late. Low 43F. Winds SW at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Partly
+        to mostly cloudy. Low 6C. Winds WSW at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":4,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Wednesday\",\n\t\t\"fcttext\":\"Mainly
+        sunny. High around 75F. Winds NW at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Sunny
+        skies. High 24C. Winds NW at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":5,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Wednesday
+        Night\",\n\t\t\"fcttext\":\"Clear. Low 44F. Winds W at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Clear
+        skies. Low 7C. Winds W at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":6,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Thursday\",\n\t\t\"fcttext\":\"Sunny.
+        High 77F. SSW winds at 5 to 10 mph, increasing to 15 to 25 mph.\",\n\t\t\"fcttext_metric\":\"Sunny
+        skies. High around 25C. SSW winds at 10 to 15 km/h, increasing to 25 to 40
+        km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":7,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Thursday
+        Night\",\n\t\t\"fcttext\":\"Clear skies. Low 48F. Winds SSW at 10 to 20 mph.\",\n\t\t\"fcttext_metric\":\"Clear.
+        Low 9C. Winds SSW at 15 to 30 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":8,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Friday\",\n\t\t\"fcttext\":\"Mainly
+        sunny. High 78F. Winds W at 10 to 20 mph.\",\n\t\t\"fcttext_metric\":\"Sunny
+        skies. High 26C. Winds W at 15 to 25 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":9,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Friday
+        Night\",\n\t\t\"fcttext\":\"Clear skies. Low near 45F. Winds WNW at 10 to
+        15 mph.\",\n\t\t\"fcttext_metric\":\"A mostly clear sky. Low 7C. Winds WNW
+        at 15 to 25 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":10,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Saturday\",\n\t\t\"fcttext\":\"Generally
+        sunny. High 73F. Winds E at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Generally
+        sunny despite a few afternoon clouds. High 23C. Winds E at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":11,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Saturday
+        Night\",\n\t\t\"fcttext\":\"Some clouds early will give way to generally clear
+        conditions overnight. Low near 45F. Winds NNE at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Partly
+        cloudy skies. Low 7C. Winds N at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":12,\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/partlycloudy.gif\",\n\t\t\"title\":\"Sunday\",\n\t\t\"fcttext\":\"Sunshine
+        and clouds mixed. High near 75F. Winds E at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Sunshine
+        and clouds mixed. High 24C. Winds E at 15 to 25 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":13,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Sunday
+        Night\",\n\t\t\"fcttext\":\"Clear to partly cloudy. Low around 45F. Winds
+        S at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"A few clouds. Low 8C. Winds
+        S at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":14,\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/partlycloudy.gif\",\n\t\t\"title\":\"Monday\",\n\t\t\"fcttext\":\"Sunshine
+        and clouds mixed. High 79F. Winds SW at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Partly
+        cloudy skies. High 26C. Winds SW at 15 to 25 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":15,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Monday
+        Night\",\n\t\t\"fcttext\":\"Partly cloudy. Low 46F. Winds WSW at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"A
+        few clouds. Low 8C. Winds WSW at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":16,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Tuesday\",\n\t\t\"fcttext\":\"Sunshine
+        and some clouds. High 76F. Winds WNW at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Generally
+        sunny despite a few afternoon clouds. High near 25C. Winds WNW at 15 to 25
+        km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":17,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Tuesday
+        Night\",\n\t\t\"fcttext\":\"Mostly clear skies. Low around 45F. NW winds shifting
+        to S at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Mostly clear skies. Low
+        8C. Winds WNW at 10 to 15 km/h.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":18,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Wednesday\",\n\t\t\"fcttext\":\"Generally
+        sunny despite a few afternoon clouds. High near 70F. Winds WNW at 10 to 20
+        mph.\",\n\t\t\"fcttext_metric\":\"Sunshine and some clouds. High 22C. Winds
+        WNW at 15 to 30 km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":19,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Wednesday
+        Night\",\n\t\t\"fcttext\":\"A few clouds from time to time. Low 44F. Winds
+        NW at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Partly cloudy skies. Low
+        7C. Winds NW at 15 to 25 km/h.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t]\n\t\t},\n\t\t\"simpleforecast\":
+        {\n\t\t\"forecastday\": [\n\t\t{\"date\":{\n\t\"epoch\":\"1491872400\",\n\t\"pretty\":\"7:00
+        PM MDT on April 10, 2017\",\n\t\"day\":10,\n\t\"month\":4,\n\t\"year\":2017,\n\t\"yday\":99,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"1\",\n\t\"monthname\":\"April\",\n\t\"monthname_short\":\"Apr\",\n\t\"weekday_short\":\"Mon\",\n\t\"weekday\":\"Monday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MDT\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":1,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"68\",\n\t\t\"celsius\":\"20\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"34\",\n\t\t\"celsius\":\"1\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        null,\n\t\t\"mm\": null\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": null,\n\t\t\"cm\": null\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
+        24,\n\t\t\"dir\": \"\",\n\t\t\"degrees\": 0\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
+        0,\n\t\t\"kph\": 1,\n\t\t\"dir\": \"NW\",\n\t\t\"degrees\": 316\n\t\t},\n\t\t\"avehumidity\":
+        44,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1491958800\",\n\t\"pretty\":\"7:00
+        PM MDT on April 11, 2017\",\n\t\"day\":11,\n\t\"month\":4,\n\t\"year\":2017,\n\t\"yday\":100,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"1\",\n\t\"monthname\":\"April\",\n\t\"monthname_short\":\"Apr\",\n\t\"weekday_short\":\"Tue\",\n\t\"weekday\":\"Tuesday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MDT\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":2,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"70\",\n\t\t\"celsius\":\"21\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"43\",\n\t\t\"celsius\":\"6\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 10,\n\t\t\"kph\":
+        16,\n\t\t\"dir\": \"SSE\",\n\t\t\"degrees\": 156\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 9,\n\t\t\"kph\": 14,\n\t\t\"dir\": \"SSE\",\n\t\t\"degrees\":
+        156\n\t\t},\n\t\t\"avehumidity\": 22,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1492045200\",\n\t\"pretty\":\"7:00
+        PM MDT on April 12, 2017\",\n\t\"day\":12,\n\t\"month\":4,\n\t\"year\":2017,\n\t\"yday\":101,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"1\",\n\t\"monthname\":\"April\",\n\t\"monthname_short\":\"Apr\",\n\t\"weekday_short\":\"Wed\",\n\t\"weekday\":\"Wednesday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MDT\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":3,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"75\",\n\t\t\"celsius\":\"24\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"44\",\n\t\t\"celsius\":\"7\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 10,\n\t\t\"kph\":
+        16,\n\t\t\"dir\": \"NW\",\n\t\t\"degrees\": 317\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 8,\n\t\t\"kph\": 13,\n\t\t\"dir\": \"NW\",\n\t\t\"degrees\":
+        317\n\t\t},\n\t\t\"avehumidity\": 24,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1492131600\",\n\t\"pretty\":\"7:00
+        PM MDT on April 13, 2017\",\n\t\"day\":13,\n\t\"month\":4,\n\t\"year\":2017,\n\t\"yday\":102,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"1\",\n\t\"monthname\":\"April\",\n\t\"monthname_short\":\"Apr\",\n\t\"weekday_short\":\"Thu\",\n\t\"weekday\":\"Thursday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MDT\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":4,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"77\",\n\t\t\"celsius\":\"25\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"48\",\n\t\t\"celsius\":\"9\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 25,\n\t\t\"kph\":
+        40,\n\t\t\"dir\": \"SSW\",\n\t\t\"degrees\": 197\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 18,\n\t\t\"kph\": 29,\n\t\t\"dir\": \"SSW\",\n\t\t\"degrees\":
+        197\n\t\t},\n\t\t\"avehumidity\": 28,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1492218000\",\n\t\"pretty\":\"7:00
+        PM MDT on April 14, 2017\",\n\t\"day\":14,\n\t\"month\":4,\n\t\"year\":2017,\n\t\"yday\":103,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"1\",\n\t\"monthname\":\"April\",\n\t\"monthname_short\":\"Apr\",\n\t\"weekday_short\":\"Fri\",\n\t\"weekday\":\"Friday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MDT\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":5,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"78\",\n\t\t\"celsius\":\"26\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"45\",\n\t\t\"celsius\":\"7\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 20,\n\t\t\"kph\":
+        32,\n\t\t\"dir\": \"W\",\n\t\t\"degrees\": 267\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
+        13,\n\t\t\"kph\": 21,\n\t\t\"dir\": \"W\",\n\t\t\"degrees\": 267\n\t\t},\n\t\t\"avehumidity\":
+        18,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1492304400\",\n\t\"pretty\":\"7:00
+        PM MDT on April 15, 2017\",\n\t\"day\":15,\n\t\"month\":4,\n\t\"year\":2017,\n\t\"yday\":104,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"1\",\n\t\"monthname\":\"April\",\n\t\"monthname_short\":\"Apr\",\n\t\"weekday_short\":\"Sat\",\n\t\"weekday\":\"Saturday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MDT\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":6,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"73\",\n\t\t\"celsius\":\"23\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"45\",\n\t\t\"celsius\":\"7\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
+        24,\n\t\t\"dir\": \"E\",\n\t\t\"degrees\": 81\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
+        10,\n\t\t\"kph\": 16,\n\t\t\"dir\": \"E\",\n\t\t\"degrees\": 81\n\t\t},\n\t\t\"avehumidity\":
+        26,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1492390800\",\n\t\"pretty\":\"7:00
+        PM MDT on April 16, 2017\",\n\t\"day\":16,\n\t\"month\":4,\n\t\"year\":2017,\n\t\"yday\":105,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"1\",\n\t\"monthname\":\"April\",\n\t\"monthname_short\":\"Apr\",\n\t\"weekday_short\":\"Sun\",\n\t\"weekday\":\"Sunday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MDT\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":7,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"75\",\n\t\t\"celsius\":\"24\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"45\",\n\t\t\"celsius\":\"7\"\n\t\t},\n\t\t\"conditions\":\"Partly
+        Cloudy\",\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/partlycloudy.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
+        24,\n\t\t\"dir\": \"E\",\n\t\t\"degrees\": 98\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
+        11,\n\t\t\"kph\": 18,\n\t\t\"dir\": \"E\",\n\t\t\"degrees\": 98\n\t\t},\n\t\t\"avehumidity\":
+        29,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1492477200\",\n\t\"pretty\":\"7:00
+        PM MDT on April 17, 2017\",\n\t\"day\":17,\n\t\"month\":4,\n\t\"year\":2017,\n\t\"yday\":106,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"1\",\n\t\"monthname\":\"April\",\n\t\"monthname_short\":\"Apr\",\n\t\"weekday_short\":\"Mon\",\n\t\"weekday\":\"Monday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MDT\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":8,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"79\",\n\t\t\"celsius\":\"26\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"46\",\n\t\t\"celsius\":\"8\"\n\t\t},\n\t\t\"conditions\":\"Partly
+        Cloudy\",\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/partlycloudy.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
+        24,\n\t\t\"dir\": \"SW\",\n\t\t\"degrees\": 217\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 12,\n\t\t\"kph\": 19,\n\t\t\"dir\": \"SW\",\n\t\t\"degrees\":
+        217\n\t\t},\n\t\t\"avehumidity\": 23,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1492563600\",\n\t\"pretty\":\"7:00
+        PM MDT on April 18, 2017\",\n\t\"day\":18,\n\t\"month\":4,\n\t\"year\":2017,\n\t\"yday\":107,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"1\",\n\t\"monthname\":\"April\",\n\t\"monthname_short\":\"Apr\",\n\t\"weekday_short\":\"Tue\",\n\t\"weekday\":\"Tuesday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MDT\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":9,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"76\",\n\t\t\"celsius\":\"24\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"45\",\n\t\t\"celsius\":\"7\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":10,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
+        24,\n\t\t\"dir\": \"WNW\",\n\t\t\"degrees\": 284\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 12,\n\t\t\"kph\": 19,\n\t\t\"dir\": \"WNW\",\n\t\t\"degrees\":
+        284\n\t\t},\n\t\t\"avehumidity\": 27,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1492650000\",\n\t\"pretty\":\"7:00
+        PM MDT on April 19, 2017\",\n\t\"day\":19,\n\t\"month\":4,\n\t\"year\":2017,\n\t\"yday\":108,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"1\",\n\t\"monthname\":\"April\",\n\t\"monthname_short\":\"Apr\",\n\t\"weekday_short\":\"Wed\",\n\t\"weekday\":\"Wednesday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MDT\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":10,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"70\",\n\t\t\"celsius\":\"21\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"44\",\n\t\t\"celsius\":\"7\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":10,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 20,\n\t\t\"kph\":
+        32,\n\t\t\"dir\": \"WNW\",\n\t\t\"degrees\": 288\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 13,\n\t\t\"kph\": 21,\n\t\t\"dir\": \"WNW\",\n\t\t\"degrees\":
+        288\n\t\t},\n\t\t\"avehumidity\": 26,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t]\n\t\t}\n\t}\n}\n"
+    http_version: 
+  recorded_at: Tue, 11 Apr 2017 02:47:49 GMT
+recorded_with: VCR 3.0.3

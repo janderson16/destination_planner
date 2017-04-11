@@ -11,9 +11,19 @@ gem 'jbuilder', '~> 2.5'
 gem 'faker'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '>= 3.2'
+gem 'figaro'
+gem 'faraday'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'pry'
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'fabrication'
+  gem 'simplecov', :require => false, :group => :test
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :development do
